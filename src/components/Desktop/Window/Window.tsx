@@ -52,7 +52,7 @@ export const Window = ({ appID }: WindowProps) => {
     containerRef.current?.focus();
   }, []);
 
-  const { resizable, height, width, trafficLightsStyle, expandable } = appsConfig[appID];
+  const { resizable, height, width, trafficLightsStyle, expandable, x, y } = appsConfig[appID];
 
   const focusCurrentApp = () => {
     setActiveApp(appID);
@@ -65,8 +65,8 @@ export const Window = ({ appID }: WindowProps) => {
       default={{
         height,
         width,
-        x: ((3 / 2) * document.body.clientWidth + randX) / 2,
-        y: (100 + randY) / 2,
+        x: x ?? ((3 / 2) * document.body.clientWidth + randX) / 2,
+        y: y ?? (100 + randY) / 2,
       }}
       enableResizing={resizable}
       dragHandleClassName="app-window-drag-handle"

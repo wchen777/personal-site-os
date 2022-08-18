@@ -50,9 +50,12 @@ export function DockItem({
         onTap={() => {
           setAnimateObj({ translateY: ['0%', '-39.2%', '0%'] });
         }}
+        onAnimationComplete={() => {
+          setAnimateObj({ translateY: ['0%', '0%', '0%'] });
+        }}
         style={{ cursor: 'pointer' }}
         initial={false}
-        animate={!openApps[appID] ? { translateY: ['0%', '0%', '0%'] } : animateObj}
+        animate={animateObj}
         transition={{ type: 'spring', duration: 0.7 }}
         transformTemplate={({ translateY }) => `translateY(${translateY})`}
       >

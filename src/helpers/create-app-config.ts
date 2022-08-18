@@ -5,6 +5,8 @@ export type AppConfig = {
   expandable?: boolean;
   height?: string | number;
   width?: string | number;
+  x?: number;
+  y?: number;
 
   shouldOpenWindow?: boolean;
 
@@ -22,7 +24,7 @@ export const createAppConfig = (et: AppConfig) => ({
   dockBreaksBefore: false,
 
   resizable: true,
-  expandable: false,
+  expandable: true,
 
   trafficLightsStyle: { top: '0.9rem', left: '0.9rem' } as React.CSSProperties,
   width: 600,

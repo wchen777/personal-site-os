@@ -13,10 +13,14 @@ import { viewSourceAppConfig } from './view-source.app-config';
 import { vscodeAppConfig } from './vscode.app-config';
 import { homeAppConfig } from './home.app-config';
 import {musicAppConfig} from './music.app-config'
+import { linkedinAppConfig } from './linkedin.app-config';
+import { youtubeAppConfig } from './youtube.app-config';
+import { workAppConfig } from './work.app-config';
 
 
 export const appsConfig = {
   home: homeAppConfig,
+  work: workAppConfig,
   terminal: projectsAppConfig,
   music: musicAppConfig,
   //   vscode: vscodeAppConfig,
@@ -30,6 +34,8 @@ export const appsConfig = {
 
   //   'purus-twitter': purusTwitterAppConfig,
   'view-source': viewSourceAppConfig,
+  linkedin: linkedinAppConfig,
+  youtube: youtubeAppConfig,
 
   calendar: calendarAppConfig,
   calculator: calculatorAppConfig,

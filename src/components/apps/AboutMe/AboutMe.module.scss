@@ -1,0 +1,92 @@
+.container {
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/cream-paper.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    border-radius: inherit;
+
+}
+
+.all {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0.5em 4em;
+}
+
+
+.text {
+  display: flex;
+  margin-left: 1.8em;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+    // font-family: "Playfair Display", serif;
+    font-family: "Didot", serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    // font-style: italic;
+}
+
+h6 {
+  font-family: "Lato", sans-serif;
+  font-size: 0.6em;
+  font-style: italic;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  font-size: 0.65em;
+  line-height: 140%;
+}
+
+b {
+  font-weight: 600;
+}
+
+.link {
+  font-style: italic;
+  font-weight: 600;
+  color: #000
+}
+
+.propic {
+    width: 15vw;
+    height: auto;
+    border-radius: 10px;
+
+    flex: 1
+}
+
+
+.titleBar {
+  padding: 1rem 1rem;
+
+  width: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.mainArea {
+  font-size: 1.618rem;
+  color: var(--app-color-light-contrast);
+
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  max-width: 8rem;
+  aspect-ratio: 1 / 1;
+}
+
+
