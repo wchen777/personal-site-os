@@ -22,6 +22,7 @@ export const Dock = () => {
         <RovingTabIndexProvider options={{ direction: 'horizontal' }}>
           {Object.keys(appsConfig).map((appID, i) => (
             <div>
+              {/* <pre>{`/assets/app-icons/${appID}/256.webp`}</pre> */}
               {appsConfig[appID].dockBreaksBefore && (
                 <div class={css.divider} key={`${appID}-divider`} aria-hidden="true" />
               )}

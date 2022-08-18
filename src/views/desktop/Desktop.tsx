@@ -21,7 +21,7 @@ export const Desktop = () => {
     <>
       <main ref={outerRef} class={css.main}>
         <ContextMenu outerRef={outerRef} />
-        <TopBar />
+        {/* <TopBar /> */}
         <WindowsArea />
         <Dock />
       </main>

@@ -1,6 +1,13 @@
 export function CloseIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
-    <svg width={7} height={7} fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+    <svg
+      width={7}
+      height={7}
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      cursor={'pointer'}
+      {...props}
+    >
       <path
         stroke="#000"
         strokeWidth={1.2}

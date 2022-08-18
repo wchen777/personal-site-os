@@ -7,6 +7,7 @@ export function StretchIcon(props: React.SVGProps<SVGSVGElement>) {
       clipRule="evenodd"
       strokeLinejoin="round"
       strokeMiterlimit={2}
+      cursor={'pointer'}
       {...props}
     >
       <path d="M4.871 3.553L9.37 8.098V3.553H4.871zm3.134 5.769L3.506 4.777v4.545h4.499z" />

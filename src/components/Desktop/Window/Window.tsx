@@ -56,7 +56,6 @@ export const Window = ({ appID }: WindowProps) => {
 
   const focusCurrentApp = () => {
     setActiveApp(appID);
-    console.log(activeApp);
   };
 
   return (

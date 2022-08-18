@@ -1,5 +1,6 @@
 import { AppID } from '__/stores/apps.store';
 import { lazy } from 'react';
+import ProjectsApp from './Projects/Projects';
 
 type AppNexusProps = {
   appID: AppID;
@@ -13,9 +14,14 @@ const Calendar = lazy(() => import('./Calendar/Calendar'));
 const PlaceholderApp = lazy(() => import('./Placeholder/Placeholder'));
 
 export const AppNexus = ({ appID, isBeingDragged }: AppNexusProps) => {
-  if (appID === 'calculator') return <Calculator />;
-  if (appID === 'vscode') return <VSCode isBeingDragged={isBeingDragged} />;
-  if (appID === 'calendar') return <Calendar />;
-
-  return <PlaceholderApp appID={appID} />;
+  switch (appID) {
+    case 'calculator':
+      return <Calculator />;
+    case 'calendar':
+      return <Calendar />;
+    case 'terminal':
+      return <ProjectsApp appID={appID} />;
+    default:
+      return <PlaceholderApp appID={appID} />;
+  }
 };

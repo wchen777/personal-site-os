@@ -23,7 +23,7 @@ export function DockItem({
   isOpen,
   shouldOpenWindow,
 }: DockItemProps) {
-  const [, setOpenApps] = useImmerAtom(openAppsStore);
+  const [openApps, setOpenApps] = useImmerAtom(openAppsStore);
   const [, setActiveApp] = useAtom(activeAppStore);
   const [animateObj, setAnimateObj] = useState({ translateY: ['0%', '0%', '0%'] });
 
@@ -39,15 +39,20 @@ export function DockItem({
       return apps;
     });
     setActiveApp(appID);
+    // setAnimateObj({ translateY: ['0%', '0%', '0%'] });
+    console.log(animateObj);
   }
 
   return (
     <button class={css.dockItemButton} aria-label={`Launch ${title}`} onClick={openApp}>
       <p class={css.tooltip}>{title}</p>
       <motion.span
-        onTap={() => setAnimateObj({ translateY: ['0%', '-39.2%', '0%'] })}
+        onTap={() => {
+          setAnimateObj({ translateY: ['0%', '-39.2%', '0%'] });
+        }}
+        style={{ cursor: 'pointer' }}
         initial={false}
-        animate={animateObj}
+        animate={!openApps[appID] ? { translateY: ['0%', '0%', '0%'] } : animateObj}
         transition={{ type: 'spring', duration: 0.7 }}
         transformTemplate={({ translateY }) => `translateY(${translateY})`}
       >
