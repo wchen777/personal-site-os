@@ -13,6 +13,7 @@ const MusicApp = ({ appID }: MusicAppTypes) => {
       <header class={clsx('app-window-drag-handle', css.titleBar)}></header>
       <section class={css.mainArea}>
         <div class={css.col}>
+          <div class={css.divider}></div>
           <p>Here is some of my music.</p>
           <div class={css.divider}></div>
           {/* <iframe

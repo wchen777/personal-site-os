@@ -35,16 +35,17 @@ const AboutMeApp = ({ appID }: AboutMeAppTypes) => {
             <br />
 
             <p>
-              Hi there! I'm an aspiring <b>quantitative developer</b> interested in <b>systems</b>,{' '}
-              <b>infrastructure</b>, and <b>quant trading</b>. Also experienced in <b>full stack</b>{' '}
-              and <b>computer vision</b>.
+              Hi there! I'm an aspiring <b>quantitative developer</b> studying{' '}
+              <b>Computer Science and Economics</b> @ <b>Brown</b> University. <br /> I'm primarily
+              interested in <b>systems</b>, <b>infrastructure</b>, and <b>quant trading</b>. Also
+              experienced in <b>full stack</b> and <b>computer vision</b>.
             </p>
 
             <br />
 
             <p>
               I love <b>jazz</b> and <b>horror films</b>; I'm a <b>multi-genre pianist</b> and
-              award-winning <b>self-taught composer</b>, and also <b>certified bartender</b>!
+              award-winning <b>self-taught composer</b>, and also a <b>certified bartender</b>!
             </p>
 
             <br />
