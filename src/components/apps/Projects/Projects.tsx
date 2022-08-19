@@ -1,5 +1,6 @@
 import clsx from 'clsx';
-import { motion } from 'framer-motion';
+// import { motion } from 'framer-motion';
+import FadeIn from 'react-fade-in';
 import type { AppID } from '__/stores/apps.store';
 import ProjectCard from './ProjectCard';
 import css from './Projects.module.scss';
@@ -141,12 +142,14 @@ const ProjectsApp = ({ appID }: ProjectsAppTypes) => {
     <section class={clsx(css.container)}>
       <header class={clsx('app-window-drag-handle', css.titleBar)}></header>
       <section class={css.mainArea}>
-        {projects.map((project) => (
-          <div class={css.projectBlock}>
-            <ProjectCard key={project.title} {...project} />
-            <div class={css.dividerP} />
-          </div>
-        ))}
+        <FadeIn>
+          {projects.map((project) => (
+            <div class={css.projectBlock}>
+              <ProjectCard key={project.title} {...project} />
+              <div class={css.dividerP} />
+            </div>
+          ))}
+        </FadeIn>
       </section>
     </section>
   );
