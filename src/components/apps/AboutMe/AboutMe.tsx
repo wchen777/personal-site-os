@@ -2,6 +2,7 @@ import clsx from 'clsx';
 import { motion } from 'framer-motion';
 import type { AppID } from '__/stores/apps.store';
 import css from './AboutMe.module.scss';
+import FadeIn from 'react-fade-in';
 
 type AboutMeAppTypes = {
   appID: AppID;
@@ -29,38 +30,41 @@ const AboutMeApp = ({ appID }: AboutMeAppTypes) => {
           </div>
 
           <div class={css.text}>
-            <h1>Will Chen</h1>
-            <h6>william_b_chen@brown.edu</h6>
+            <FadeIn>
+              <h1>Will Chen</h1>
+              <h6>william_b_chen@brown.edu</h6>
 
-            <br />
+              <br />
 
-            <p>
-              Hi there! I'm an aspiring <b>quantitative developer</b> studying{' '}
-              <b>Computer Science and Economics</b> @ <b>Brown</b> University. <br /> I'm primarily
-              interested in <b>systems</b>, <b>infrastructure</b>, and <b>quant trading</b>. Also
-              experienced in <b>full stack</b> and <b>computer vision</b>.
-            </p>
+              <p>
+                Hi there! I'm an aspiring <b>quantitative developer</b> studying{' '}
+                <b>Computer Science and Economics</b> @ <b>Brown</b> University. <br /> I'm
+                primarily interested in <b>systems</b>, <b>infrastructure</b>, and{' '}
+                <b>quant trading</b>. Also experienced in <b>full stack</b> and{' '}
+                <b>computer vision</b>.
+              </p>
 
-            <br />
+              <br />
 
-            <p>
-              I love <b>jazz</b> and <b>horror films</b>; I'm a <b>multi-genre pianist</b> and
-              award-winning <b>self-taught composer</b>, and also a <b>certified bartender</b>!
-            </p>
+              <p>
+                I love <b>jazz</b> and <b>horror films</b>; I'm a <b>multi-genre pianist</b> and
+                award-winning <b>self-taught composer</b>, and also a <b>certified bartender</b>!
+              </p>
 
-            <br />
+              <br />
 
-            <p>
-              Currently reading:{' '}
-              <a
-                class={css.link}
-                target="_blank"
-                href={'https://www.worldscientific.com/worldscibooks/10.1142/8967#t=aboutBook'}
-              >
-                Market Microstructure in Practice
-              </a>
-              .
-            </p>
+              <p>
+                Currently reading:{' '}
+                <a
+                  class={css.link}
+                  target="_blank"
+                  href={'https://www.worldscientific.com/worldscibooks/10.1142/8967#t=aboutBook'}
+                >
+                  Market Microstructure in Practice
+                </a>
+                .
+              </p>
+            </FadeIn>
           </div>
         </div>
       </section>

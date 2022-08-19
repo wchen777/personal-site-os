@@ -15,7 +15,6 @@ const MusicApp = ({ appID }: MusicAppTypes) => {
       <section class={css.mainArea}>
         <div class={css.col}>
           <FadeIn>
-            <div class={css.divider}></div>
             <p>Here is some of my music.</p>
             <div class={css.divider}></div>
             {/* <iframe

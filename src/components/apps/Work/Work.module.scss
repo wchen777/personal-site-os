@@ -1,0 +1,174 @@
+.container {
+    background-color: #ffffff;
+    background-image: url("/assets/wallpapers/cream-paper.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    border-radius: inherit;
+}
+// :root{
+//   --colorPrincipal: #7DB4B5;
+//   --colorSecundario: #680148;
+//   --colorSombra: rgba(125, 180, 181, 0.2)
+// }
+
+.titleBar {
+  padding: 1rem 1rem;
+
+  width: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.mainArea {
+  font-size: 1.618rem;
+  color: var(--app-color-light-contrast);
+
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  padding: 1em 1em;
+  // justify-content: center;
+  align-items: center;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.img {
+  max-width: 8rem;
+  aspect-ratio: 1 / 1;
+}
+
+.dividerP {
+  width: 40%;
+  height: 1px;
+  background-color: #cccccc;
+  margin: 1.0em auto;
+}
+
+
+// card
+
+.workCard {
+  width: 60vw;
+  height: auto;
+  padding: 0.25em 0;
+  border-radius: 10px;
+}
+
+
+.tag {
+  margin-bottom: 0.4em;
+}
+
+.workTitle {
+  font-family: 'Palatino', 'URW Palladio L', serif;
+  font-size: 0.7em;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.cardText {
+  font-size: 0.55em;
+}
+
+.projectimg {
+  width: 9vw;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 1.3em;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+// .projectBlock {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+i {
+  font-style: italic;
+}
+
+.workDate {
+  font-size: 0.45em;
+  font-family: 'Georgia', serif;
+  color: #686868;
+  margin-top: 0.3em;
+
+}
+
+
+// timeline
+
+.timeline{
+  // width:800px;
+
+  // color:#fff;
+  padding:30px 20px;
+  // box-shadow:0px 0px 10px rgba(0,0,0,.5);
+}
+.timeline ul{
+  list-style-type:none;
+  border-left:1px solid #2a2a2a;
+  padding:0px 5px;
+}
+.timeline ul li{
+  padding:10px 35px;
+  position:relative;
+  // cursor:pointer;
+  transition:.5s;
+}
+// .timeline ul li span{
+//   display:inline-block;
+//   background-color:#1685b8;
+//   border-radius:25px;
+//   padding:2px 5px;
+//   font-size:15px;
+//   text-align:center;
+// }
+// .timeline ul li .content h3{
+//   color:#34ace0;
+//   font-size:17px;
+//   padding-top:5px;
+// }
+// .timeline ul li .content p{
+//   padding:5px 0px 15px 0px;
+//   font-size:15px;
+// }
+.timeline ul li:before{
+  position:absolute;
+  content:'';
+  width:7px;
+  height:7px;
+  background-color:#2a2a2a;
+  // box-shadow: 0 0 0 2px #acacac;
+  border-radius:50%;
+  left:-9px;
+  // center vertically
+  top:50%;
+  // top:28px;
+  transition:.5s;
+}
+// .timeline ul li:hover{
+  // background-color:#071f2a;
+// }
+.timeline ul li:hover:before{
+  // background-color:rgb(39, 39, 39);
+  transform: scale(1.75);
+  // box-shadow:0px 0px 10px 2px rgb(64, 64, 64);
+}

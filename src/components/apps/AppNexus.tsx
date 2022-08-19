@@ -1,6 +1,5 @@
 import { AppID } from '__/stores/apps.store';
 import { lazy } from 'react';
-import ProjectsApp from './Projects/Projects';
 
 type AppNexusProps = {
   appID: AppID;
@@ -14,6 +13,8 @@ const Calendar = lazy(() => import('./Calendar/Calendar'));
 const PlaceholderApp = lazy(() => import('./Placeholder/Placeholder'));
 import AboutMeApp from './AboutMe/AboutMe';
 import MusicApp from './Music/Music';
+import WorkApp from './Work/Work';
+import ProjectsApp from './Projects/Projects';
 
 export const AppNexus = ({ appID, isBeingDragged }: AppNexusProps) => {
   switch (appID) {
@@ -27,6 +28,8 @@ export const AppNexus = ({ appID, isBeingDragged }: AppNexusProps) => {
       return <AboutMeApp appID={appID} />;
     case 'music':
       return <MusicApp appID={appID} />;
+    case 'work':
+      return <WorkApp appID={appID} />;
 
     default:
       return <PlaceholderApp appID={appID} />;
