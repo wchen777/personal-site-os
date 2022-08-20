@@ -1,30 +1,30 @@
 export const contextMenuConfig = {
   default: {
     "new-folder": {
-      title: "New Folder",
+      title: "i carry your heart with me",
       breakAfter: true,
     },
     "get-info": {
-      title: "Get Info",
+      title: "(i carry it in my heart)",
     },
     "change-desktop-bg": {
-      title: "Change Desktop Background",
+      title: "i am never without it",
       breakAfter: true,
     },
     "use-stacks": {
-      title: "Use Stacks"
+      title: "(anywhere i go you go,"
     },
     "sort-by": {
-      title: "Sort By"
+      title: "my dear;"
     },
     "clean-up": {
-      title: "Clean Up"
+      title: "and whatever is done"
     },
     "clean-up-by": {
-      title: "Clean Up By"
+      title: "by me is your doing,"
     },
     "show-view-options": {
-      title: "Show View Options"
+      title: "my darling)"
     }
   }
 }
