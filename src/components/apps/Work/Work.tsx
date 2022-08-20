@@ -16,7 +16,7 @@ const workList = [
     image: '/assets/work/gs.png',
     description: (
       <p class={css.cardText}>
-        Investment Banking Division CRM Engineering — Developed a cloud-native observability and
+        Investment Banking Division CRM Engineering — I developed a cloud-native observability and
         monitoring tooling for the client portal infrastructure.
       </p>
     ),
@@ -77,7 +77,7 @@ const workList = [
     image: '/assets/work/umd.png',
     description: (
       <p class={css.cardText}>
-        Worked with supervisors to write scripts and help automate certain genome sequencing
+        I worked with supervisors to write scripts and help automate certain genome sequencing
         processes.
       </p>
     ),
