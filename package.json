@@ -1,5 +1,5 @@
 {
-  "homepage": "https://wchen777.github.io/",
+  "homepage": "https://wchen777.github.io/personal-site-os",
   "scripts": {
     "start": "vite",
     "type-check": "tsc --noEmit",
