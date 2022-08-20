@@ -60,7 +60,7 @@ const projects = [
     url: 'https://github.com/wchen777/cafe-app',
     description: (
       <p class={css.cardText}>
-        A social media mobile app creating an interconnected community between
+        A PoC social media mobile app creating an interconnected community between
         underrepresented/emerging and established artists and creators.
       </p>
     ),
@@ -72,9 +72,8 @@ const projects = [
     url: 'https://www.youtube.com/watch?v=itEqPTJpxUo',
     description: (
       <p class={css.cardText}>
-        22-min video in the style of 3Blue1Brown {'('}
-        <i>Manim</i>
-        {')'} describing the niche topic of Polya vector fields in complex analysis.
+        22-min video in the style of 3Blue1Brown using<i> Manim </i>describing the niche topic of
+        Polya vector fields in complex analysis.
       </p>
     ),
   },
@@ -123,9 +122,9 @@ const projects = [
     description: (
       <>
         <p class={css.cardText}>
-          Retro-style educational space shooter that encourages the learning of business related
-          concepts. Players collected journal entries and answered quizzes to earn points while
-          defeating waves of enemies.
+          Retro-style educational space shooter encouraging the learning of business-related
+          concepts. Collect journal entries and answer quizzes to earn points while defeating waves
+          of enemies.
         </p>
         <br />
         <p class={css.cardText}>
