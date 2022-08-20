@@ -15,9 +15,9 @@ const MusicApp = ({ appID }: MusicAppTypes) => {
       <section class={css.mainArea}>
         <div class={css.col}>
           <FadeIn>
-            <p>
-              Here is some of my music. My pieces have won awards in the state and nationally, and
-              I've performed them at state conferences and even abroad.
+            <p class={css.intro}>
+              Here is some of my music. My pieces have won awards in the state and national level,
+              and I've performed them at state conferences and even abroad.
             </p>
             <div class={css.divider}></div>
             {/* <iframe
