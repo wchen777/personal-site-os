@@ -1,0 +1,1 @@
+import{b as e,e as a}from"./vendor.a6ef5708.js";var r="_container_1lerz_1",s="_iframe_1lerz_9",_="_iframeDragged_1lerz_14",i="_header_1lerz_18";export default({isBeingDragged:l})=>e("section",{class:r},e("header",{class:a(i,"app-window-drag-handle")}),e("div",null,e("iframe",{class:a(s,l&&_),src:"https://github1s.com/puruvj/macos-web"})));
