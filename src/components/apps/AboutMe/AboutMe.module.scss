@@ -6,6 +6,12 @@
 
 }
 
+// custom font
+@font-face {
+    font-family: LatoCustom;
+    src: url('/assets/fonts/Lato-Regular.ttf');
+}
+
 .all {
 
   display: flex;
@@ -32,15 +38,17 @@ h1 {
 }
 
 h6 {
-  font-family: "Lato", "Montserrat", sans-serif;
+  font-family: lato, sans-serif;
+  font-weight: 200;
   font-size: 0.6em;
   font-style: italic;
 }
 
 p {
-  font-family: "Lato", "Montserrat", sans-serif;
+  font-family: lato, sans-serif;
   font-size: 0.65em;
   line-height: 140%;
+  font-weight: 200;
 }
 
 b {
