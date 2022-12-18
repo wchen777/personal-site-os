@@ -37,9 +37,9 @@ const AboutMeApp = ({ appID }: AboutMeAppTypes) => {
               <br />
 
               <p>
-                Hi there! I'm an aspiring <b>quantitative developer</b> studying{' '}
+                Hi there! I'm an aspiring <b>quantitative/systems developer</b> studying{' '}
                 <b>Computer Science and Economics</b> @ <b>Brown</b> University. <br /> I'm
-                primarily interested in <b>systems</b>, <b>infrastructure</b>, and{' '}
+                primarily interested in <b>operating systems</b>, <b>distributed systems</b>, and{' '}
                 <b>quant trading</b>. Also experienced in <b>full stack</b> and{' '}
                 <b>computer vision</b>.
               </p>

@@ -11,6 +11,25 @@ type ProjectsAppTypes = {
 
 const projects = [
   {
+    title: 'Copied City Procedural Generation',
+    image: '/assets/personal/projects/copiedcity.png',
+    url: 'https://youtu.be/oJNf88NCcSI',
+    description: (
+      <>
+        <p class={css.cardText}>
+          Replicating the style of Nier Automata's Copied City as a procedurally generated realtime
+          environment using OpenGL.
+        </p>
+        <br />
+        <p class={css.cardText}>
+          Utilizes stochastic procedural shape grammar, screen space ambient occlusion, (shadow,
+          texture, skybox) mapping, fog, etc.
+        </p>
+      </>
+    ),
+  },
+
+  {
     title: 'CoreaChord',
     image: '/assets/personal/projects/corea.png',
     url: 'https://coreachord.herokuapp.com/',
