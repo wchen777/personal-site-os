@@ -67,7 +67,20 @@ const projects = [
       </p>
     ),
   },
-
+  {
+    title: 'Network Encoding Visualizer',
+    image: 'assets/personal/projects/manchester.gif',
+    url: 'https://github.com/wchen777/network-encoding-vis/',
+    description: (
+      <>
+        <p class={css.cardText}>
+          ASCII visualizer for how bits are transformed into signals on the physical network layer.
+        </p>
+        <br />
+        <p class={css.cardText}>NRZ, Manchester, 4B/5B block encoding.</p>
+      </>
+    ),
+  },
   {
     title: 'Cafe App',
     image: '/assets/personal/projects/cafe poster 2.png',
