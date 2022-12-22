@@ -5,5 +5,5 @@ export const youtubeAppConfig = createAppConfig({
   resizable: true,
 
   shouldOpenWindow: false,
-  externalAction: () => window.open('https://www.youtube.com/channel/UCCtnrsU8FVKttNu5DOV78HA', '_blank'),
+  externalAction: () => window.open('https://www.youtube.com/@wchen77', '_blank'),
 });
