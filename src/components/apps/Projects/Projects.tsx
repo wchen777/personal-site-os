@@ -17,8 +17,8 @@ const projects = [
     description: (
       <>
         <p class={css.cardText}>
-          Replicating the style of <i>Nier Automata's Copied City</i> as a procedurally generated
-          realtime environment using OpenGL.
+          Replicating the style of <i>Nier Automata's Copied City</i> with stochastic shape grammar
+          as a procedurally generated realtime environment using OpenGL.
         </p>
       </>
     ),
