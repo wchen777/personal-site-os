@@ -27,7 +27,7 @@ const projects = [
   {
     title: 'CoreaChord',
     image: '/assets/personal/projects/corea.png',
-    url: 'https://coreachord.herokuapp.com/',
+    url: 'https://corea-chord.herokuapp.com/',
     description: (
       <>
         <p class={css.cardText}>
