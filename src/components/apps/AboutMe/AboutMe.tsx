@@ -38,10 +38,10 @@ const AboutMeApp = ({ appID }: AboutMeAppTypes) => {
 
               <p>
                 Hi there! I'm an aspiring <b>quantitative/systems developer</b> studying{' '}
-                <b>Computer Science and Economics</b> @ <b>Brown</b> University. <br /> I'm
-                primarily interested in <b>operating systems</b>, <b>distributed systems</b>, and{' '}
-                <b>quant trading</b>. Also experienced in <b>full stack</b> and{' '}
-                <b>computer vision</b>.
+                <b>Computer Science and Economics</b> @ <b>Brown</b> University.
+                <br />
+                I'm primarily interested in <b>operating systems</b>, <b>distributed systems</b>,
+                and <b>quant trading</b>. I also enjoy <b>visual computing</b>.
               </p>
 
               <br />
