@@ -39,7 +39,41 @@ const projects = [
       </>
     ),
   },
-
+  {
+    title: 'TCP/IP',
+    image: '/assets/personal/projects/tcp.png',
+    url: 'https://github.com/wchen777/tcp-ip',
+    description: (
+      <>
+        <p class={css.cardText}>
+          TCP/IP protocols from scratch — implemented as virtual IP nodes exposing a TCP socket API.{' '}
+        </p>
+        <br />
+        <p class={css.cardText}>
+          Retransmissions, timeouts, early arrivals, sliding window, congestion control, etc. <br />
+          Graphs of sequence numbers vs. time and throughput vs. time are shown, along with a packet
+          capture.
+        </p>
+      </>
+    ),
+  },
+  {
+    title: 'Ray Tracer',
+    image: '/assets/personal/projects/ray.png',
+    url: 'https://github.com/wchen777/ray-realtime',
+    description: (
+      <>
+        <p class={css.cardText}>
+          Multithreaded raytracer utilizing Phong illumination model and implicit geometry.
+        </p>
+        <br />
+        <p class={css.cardText}>
+          Implements bounding volume hierarchy, supersampling, recursive reflections, shadows,
+          texture mapping w/ interpolated sampling, refractions using Snell's Law.
+        </p>
+      </>
+    ),
+  },
   {
     title: 'PuddleStore',
     image: '/assets/personal/projects/puddlestore sc2.png',
@@ -81,17 +115,6 @@ const projects = [
       </>
     ),
   },
-  {
-    title: 'Cafe App',
-    image: '/assets/personal/projects/cafe poster 2.png',
-    url: 'https://github.com/wchen777/cafe-app',
-    description: (
-      <p class={css.cardText}>
-        A PoC social media mobile app creating an interconnected community between
-        underrepresented/emerging and established artists and creators.
-      </p>
-    ),
-  },
 
   {
     title: 'Visualizing Polya Vector Fields',
@@ -123,6 +146,18 @@ const projects = [
           segmentation. Transfer learning using ResNet50.
         </p>
       </>
+    ),
+  },
+
+  {
+    title: 'Cafe App',
+    image: '/assets/personal/projects/cafe poster 2.png',
+    url: 'https://github.com/wchen777/cafe-app',
+    description: (
+      <p class={css.cardText}>
+        A PoC social media mobile app creating an interconnected community between
+        underrepresented/emerging and established artists and creators.
+      </p>
     ),
   },
 

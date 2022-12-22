@@ -58,9 +58,9 @@ const AboutMeApp = ({ appID }: AboutMeAppTypes) => {
                 <a
                   class={css.link}
                   target="_blank"
-                  href={'https://www.worldscientific.com/worldscibooks/10.1142/8967#t=aboutBook'}
+                  href={'https://www.amazon.com/Man-Who-Solved-Market-Revolution/dp/073521798X'}
                 >
-                  Market Microstructure in Practice
+                  The Man Who Solved the Market
                 </a>
                 .
               </p>
