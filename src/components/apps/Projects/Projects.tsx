@@ -58,23 +58,6 @@ const projects = [
     ),
   },
   {
-    title: 'Ray Tracer',
-    image: '/assets/personal/projects/ray.png',
-    url: 'https://github.com/wchen777/ray-realtime',
-    description: (
-      <>
-        <p class={css.cardText}>
-          Multithreaded raytracer utilizing Phong illumination model and implicit geometry.
-        </p>
-        <br />
-        <p class={css.cardText}>
-          Implements bounding volume hierarchy, supersampling, recursive reflections, shadows,
-          texture mapping w/ interpolated sampling, refractions using Snell's Law.
-        </p>
-      </>
-    ),
-  },
-  {
     title: 'Path Tracer',
     image: '/assets/personal/projects/pathtracer_pics.png',
     url: 'https://github.com/wchen777/',
@@ -93,21 +76,40 @@ const projects = [
     ),
   },
   {
-    title: 'PuddleStore',
-    image: '/assets/personal/projects/puddlestore sc2.png',
-    url: 'https://github.com/wchen777/puddlestore',
+    title: 'Ray Tracer',
+    image: '/assets/personal/projects/ray.png',
+    url: 'https://github.com/wchen777/ray-realtime',
     description: (
       <>
-        <p class={css.cardText}>Distributed file system based on OceanStore.</p>
+        <p class={css.cardText}>
+          Multithreaded raytracer utilizing Phong illumination model and implicit geometry.
+        </p>
         <br />
         <p class={css.cardText}>
-          Apache Zookeeper as distributed consistency and a Tapestry network as a peer-to-peer
-          key-value datastore/chunk server. Round-robin load balancing and data block replication.
+          Implements bounding volume hierarchy, supersampling, recursive reflections, shadows,
+          texture mapping w/ interpolated sampling, refractions using Snell's Law.
         </p>
       </>
     ),
   },
-
+  {
+    title: 'Bayesian Analysis of S&P 500 Returns',
+    image: '/assets/personal/projects/garch.png',
+    url: 'https://github.com/wchen777/sp-500_garch',
+    description: (
+      <>
+        <p class={css.cardText}>
+          Bayesian posterior simulation methods applied to a GARCH (Generalized Autoregressive
+          Conditional Heteroskedasticity) volatility model on S&P 500 historical returns.
+        </p>
+        <br />
+        <p class={css.cardText}>
+          Uses a Metropolis-Hastings random walk to sample and simulate the posterior distribution.
+          Joint distribution tests, prior predictive analysis, model checks.
+        </p>
+      </>
+    ),
+  },
   {
     title: 'National Gallery of Art — Digital Model',
     image: 'assets/personal/projects/model screenshot.png',
@@ -133,7 +135,21 @@ const projects = [
       </>
     ),
   },
-
+  {
+    title: 'PuddleStore',
+    image: '/assets/personal/projects/puddlestore sc2.png',
+    url: 'https://github.com/wchen777/puddlestore',
+    description: (
+      <>
+        <p class={css.cardText}>Distributed file system based on OceanStore.</p>
+        <br />
+        <p class={css.cardText}>
+          Apache Zookeeper as distributed consistency and a Tapestry network as a peer-to-peer
+          key-value datastore/chunk server. Round-robin load balancing and data block replication.
+        </p>
+      </>
+    ),
+  },
   {
     title: 'Visualizing Polya Vector Fields',
     image: '/assets/personal/projects/polya.png',

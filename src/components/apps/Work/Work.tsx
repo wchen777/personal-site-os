@@ -47,7 +47,7 @@ const workList = [
         <p class={css.cardText}>Spring 2021 - Data Ethics and Society</p>
         <p class={css.cardText}>Fall 2021, Spring 2022 - Computer Vision</p>
         <p class={css.cardText}>Fall 2022 - Intro to Computer Systems</p>
-        <p class={css.cardText}>Spring 2023 - Distributed Systems</p>
+        <p class={css.cardText}>Spring 2023 - Distributed Systems, Operating Systems</p>
       </>
     ),
   },
