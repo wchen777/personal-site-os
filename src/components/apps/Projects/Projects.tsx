@@ -75,6 +75,24 @@ const projects = [
     ),
   },
   {
+    title: 'Path Tracer',
+    image: '/assets/personal/projects/pathtracer_pics.png',
+    url: 'https://github.com/wchen777/',
+    description: (
+      <>
+        <p class={css.cardText}>
+          Simulating physically-based transport of light. Uses the Monte Carlo method to solve the
+          rendering equation.
+        </p>
+        <br />
+        <p class={css.cardText}>
+          Fresnel dielectric refraction/reflection, direct illumination with event splitting,
+          importance sampling, image-based lighting, stratified sampling, etc.
+        </p>
+      </>
+    ),
+  },
+  {
     title: 'PuddleStore',
     image: '/assets/personal/projects/puddlestore sc2.png',
     url: 'https://github.com/wchen777/puddlestore',
