@@ -68,7 +68,7 @@ const projects_visual = [
     ),
   },
   {
-    title: 'Ray Tracer',
+    title: 'Ray Tracer ★',
     image: '/assets/personal/projects/ray.png',
     url: 'https://github.com/wchen777/ray-realtime',
     description: (
