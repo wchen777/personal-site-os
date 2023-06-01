@@ -25,6 +25,31 @@ const projects_visual = [
   },
 
   {
+    title: 'Approx Convex Decomposition ★',
+    image: '/assets/personal/projects/convex.png',
+    url: 'https://github.com/wchen777/as-convex-as-possible',
+    description: (
+      <>
+        <p class={css.cardText}>
+          Approximate convex decomposition for triangle meshes using greedy hyperplane search (
+          <a
+            href="https://www.microsoft.com/en-us/research/uploads/prod/2019/09/a226-thul.pdf"
+            target="__blank"
+            className="link"
+          >
+            <i>Thul et. al. 2018</i>
+          </a>
+          ) and axis-aligned Monte Carlo tree search (
+          <a href="https://colin97.github.io/CoACD/" target="__blank" className="link">
+            <i>Liu et al. 2022</i>
+          </a>
+          ).
+        </p>
+      </>
+    ),
+  },
+
+  {
     title: 'Path Tracer ★',
     image: '/assets/personal/projects/pathtracer_pics.png',
     url: 'https://github.com/wchen777/',
