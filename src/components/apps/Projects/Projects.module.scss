@@ -43,6 +43,12 @@
   margin: 1.0em auto;
 }
 
+.dividerPL {
+  width: 20%;
+  height: 1px;
+  background-color: #cccccc;
+}
+
 
 // card
 
@@ -59,8 +65,25 @@
   transition: all 0.7s ease-in-out;
 }
 
+.mainCardTitle {
+  width: 60vw;
+  height: auto;
+  padding: 0em 1.5em;
+  border-radius: 10px;
+}
+
 .tag {
   margin-bottom: 0.5em;
+}
+
+.sectionProj {
+  font-family: 'Palatino', 'URW Palladio L', serif;
+  font-style: italic;
+  font-size: 1.2em;
+  font-weight: 900;
+  line-height: 1;
+  margin-bottom: 0.5em;
+  margin-top: 0.6em;
 }
 
 .cardTitle {
