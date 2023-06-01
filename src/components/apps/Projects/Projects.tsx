@@ -232,7 +232,7 @@ const projects_misc = [
     description: (
       <>
         <p class={css.cardText}>
-          Ex-post valuation of the Orangina LBO by the Lion Capital and the Blackstone Group.
+          Ex-post valuation of the Orangina LBO by Lion Capital and the Blackstone Group.
         </p>
         <br />
         <p class={css.cardText}>
