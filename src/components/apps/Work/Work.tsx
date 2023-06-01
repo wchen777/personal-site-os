@@ -11,6 +11,13 @@ type WorkAppTypes = {
 
 const workList = [
   {
+    title: 'Software Engineer/SRE @ TikTok',
+    date: 'JUNE 2023 - PRESENT',
+    image: '/assets/work/tiktok.png',
+    description: <p class={css.cardText}>Infrastructure Engineering - Edge Services</p>,
+  },
+
+  {
     title: 'Summer Analyst @ Goldman Sachs',
     date: 'JUNE 2022 - AUGUST 2022',
     image: '/assets/work/gs.png',
@@ -24,7 +31,7 @@ const workList = [
 
   {
     title: 'Dev Team Lead @ Hack at Brown',
-    date: 'OCTOBER 2021 - PRESENT',
+    date: 'OCTOBER 2021 - MAY 2023',
     image: '/assets/work/hab.png',
     description: (
       <p class={css.cardText}>
@@ -40,7 +47,7 @@ const workList = [
 
   {
     title: 'Teaching Assistant @ Brown University',
-    date: 'JANUARY 2021 - PRESENT',
+    date: 'JANUARY 2021 - MAY 2023',
     image: '/assets/work/brown.jpeg',
     description: (
       <>

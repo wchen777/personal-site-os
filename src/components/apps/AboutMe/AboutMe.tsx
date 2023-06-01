@@ -25,7 +25,7 @@ const AboutMeApp = ({ appID }: AboutMeAppTypes) => {
                 damping: 20,
               }}
               draggable={false}
-              src={`/assets/personal/aboutme/personal.jpeg`}
+              src={`/assets/personal/aboutme/personal_2.png`}
             />
           </div>
 
@@ -37,11 +37,12 @@ const AboutMeApp = ({ appID }: AboutMeAppTypes) => {
               <br />
 
               <p>
-                Hi there! I'm an aspiring <b>quantitative/systems developer</b> studying{' '}
-                <b>Computer Science and Economics</b> @ <b>Brown</b> University.
+                Hi there! I'm a recent graduate in <b>Computer Science and Economics</b> (ScB) @{' '}
+                <b>Brown University</b>, and I'm currently working as a <b>Software Engineer</b> @{' '}
+                <b>TikTok</b> on the <b>Edge Services</b> team!
                 <br />
-                I'm primarily interested in <b>operating systems</b>, <b>distributed systems</b>,
-                and <b>quant trading</b>. I also enjoy <b>visual computing</b>.
+                My focuses are in <b>operating systems</b>, <b>distributed systems</b>, and{' '}
+                <b>visual computing</b>. I'm also interested in <b>quantitative trading</b>.
               </p>
 
               <br />
