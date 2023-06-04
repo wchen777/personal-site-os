@@ -14,7 +14,7 @@ const workList = [
     title: 'Software Engineer/SRE @ TikTok',
     date: 'JUNE 2023 - PRESENT',
     image: '/assets/work/tiktok.png',
-    description: <p class={css.cardText}>Infrastructure Engineering - Edge Services</p>,
+    description: <p class={css.cardText}>CDN Infrastructure - Edge Services</p>,
   },
 
   {
