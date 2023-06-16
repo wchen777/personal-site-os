@@ -32,7 +32,7 @@ const AboutMeApp = ({ appID }: AboutMeAppTypes) => {
           <div class={css.text}>
             <FadeIn>
               <h1>Will Chen</h1>
-              <h6>william_b_chen@brown.edu</h6>
+              <h6>william_b_chen@alumni.brown.edu</h6>
 
               <br />
 
