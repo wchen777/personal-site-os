@@ -31,6 +31,14 @@
   overflow-y: auto;
 }
 
+@media (max-width: 767px) {
+  /* Styles for mobile devices */
+  .mainArea {
+    max-height: 60vh;
+  }
+
+}
+
 .img {
   max-width: 8rem;
   aspect-ratio: 1 / 1;
