@@ -39,7 +39,7 @@ const AboutMeApp = ({ appID }: AboutMeAppTypes) => {
               <p>
                 Hi there! I'm a recent graduate in <b>Computer Science and Economics</b> (ScB) @{' '}
                 <b>Brown University</b>, and I'm currently working as a <b>Software Engineer</b> @{' '}
-                <b>TikTok</b> on the <b>Edge Services</b> team!
+                <b>TikTok</b> on the <b>CDN Infrastructure</b> team!
                 <br />
                 My focuses are in <b>operating systems</b>, <b>distributed systems</b>, and{' '}
                 <b>visual computing</b>. I'm also interested in <b>quantitative trading</b>.

@@ -93,6 +93,14 @@ b {
   align-items: center;
 }
 
+@media (max-width: 767px) {
+
+  .mainArea {
+    padding-top: 0.1vh;
+    padding-bottom: 0.1vh;
+  }
+}
+
 .img {
   max-width: 8rem;
   aspect-ratio: 1 / 1;
