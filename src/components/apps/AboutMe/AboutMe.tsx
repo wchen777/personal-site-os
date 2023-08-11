@@ -38,9 +38,9 @@ const AboutMeApp = ({ appID }: AboutMeAppTypes) => {
 
               <p>
                 Hi there! I'm a recent graduate in <b>Computer Science and Economics</b> (ScB) @{' '}
-                <b>Brown University</b>. I'm work with low-latency, high throughput systems,
-                currently as <b>Software Engineer</b> @ <b>TikTok</b> on the{' '}
-                <b>CDN Infrastructure</b> team!
+                <b>Brown University</b>. I'm work with low-latency, high throughput systems. I'm
+                currently a <b>Software Engineer</b> @ <b>TikTok</b> working on the global
+                <b>CDN Infrastructure</b>!
                 <br />
               </p>
 
