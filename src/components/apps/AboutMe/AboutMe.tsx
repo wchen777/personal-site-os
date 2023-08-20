@@ -47,8 +47,8 @@ const AboutMeApp = ({ appID }: AboutMeAppTypes) => {
               <br />
 
               <p>
-                My focuses are in <b>operating systems</b>, <b>distributed systems</b>, and{' '}
-                networking. I'm also interested in <b>quantitative trading</b> and{' '}
+                My focuses are in <b>kernel optimization</b>, <b>distributed systems</b>, and{' '}
+                network tuning/engineering. I'm also interested in <b>quantitative trading</b> and{' '}
                 <b>visual computing</b>.
               </p>
 
