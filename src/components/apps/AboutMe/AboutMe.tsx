@@ -39,7 +39,7 @@ const AboutMeApp = ({ appID }: AboutMeAppTypes) => {
               <p>
                 Hi there! I'm a recent graduate in <b>Computer Science and Economics</b> (ScB) @{' '}
                 <b>Brown University</b>. I'm work with low-latency, high throughput systems. I'm
-                currently a <b>Software Engineer</b> @ <b>TikTok</b> working on the global
+                currently a <b>Software Engineer</b> @ <b>TikTok</b> working on the global{' '}
                 <b>CDN Infrastructure</b>!
                 <br />
               </p>
@@ -48,8 +48,8 @@ const AboutMeApp = ({ appID }: AboutMeAppTypes) => {
 
               <p>
                 My focuses are in <b>kernel optimization</b>, <b>distributed systems</b>, and{' '}
-                network tuning/engineering. I'm also interested in <b>quantitative trading</b> and{' '}
-                <b>visual computing</b>.
+                <b>network tuning/engineering</b>. I'm also interested in{' '}
+                <b>quantitative trading</b> and <b>visual computing</b>.
               </p>
 
               <br />
