@@ -37,8 +37,9 @@ const workList = [
     image: '/assets/work/hab.png',
     description: (
       <p class={css.cardText}>
-        I lead the club's website development team. I create and distribute tasks, review PRs, plan
-        meetings, conduct interviews, and also code.
+        I led the club's website development team. I created and distributed tasks, reviewed PRs,
+        planned meetings, conducted interviews, and also helped developed the websites and other
+        tooling.
         <br />
         <a href="https://2023.hackatbrown.org" target="__blank" className="link">
           View our 2023 website.
