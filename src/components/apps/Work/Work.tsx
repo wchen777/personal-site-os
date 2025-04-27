@@ -11,12 +11,10 @@ type WorkAppTypes = {
 
 const workList = [
   {
-    title: 'CDN Engineer @ TikTok',
+    title: 'CDN Site Reliability Engineer @ TikTok',
     date: 'JUNE 2023 - PRESENT',
     image: '/assets/work/tiktok.png',
-    description: (
-      <p class={css.cardText}>Site Reliability, Dynamic Site Acceleration, Edge Caching</p>
-    ),
+    description: <p class={css.cardText}>Performance engineering, static and dynamic content</p>,
   },
 
   {
